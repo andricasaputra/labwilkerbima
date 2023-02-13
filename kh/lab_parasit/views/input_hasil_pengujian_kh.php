@@ -274,7 +274,7 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                                         $n[] = "0".$value;
                                       }
 
-                                      $r = $n;
+                                     $r = range($awal, $akhir);
 
                                 }else{
 

@@ -1,4 +1,4 @@
-<?php  
+<?php
 
 require_once('header_proses.php'); 
 

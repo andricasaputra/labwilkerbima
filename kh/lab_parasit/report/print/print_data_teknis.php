@@ -516,7 +516,7 @@ $content .= '
 
             <td style="width: 100px"></td>
 
-            <td style="width: 260px; text-align: center">Sumbawa Besar, '.$data->tanggal_sertifikat.'</td>
+            <td style="width: 260px; text-align: center">Bima, '.$data->tanggal_sertifikat.'</td>
 
         </tr>
 

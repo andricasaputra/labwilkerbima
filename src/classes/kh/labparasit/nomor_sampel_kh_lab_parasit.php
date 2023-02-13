@@ -10,7 +10,7 @@ if (!$kosong == 0) {
 
     $jumlah_sampel = 2;
 
-    $no_sampel = $result->no_sampel;
+    $no_sampel = $result->no_sampel ?? 0;
 
     //  Jika Jumlah Sampel Sama Dengan 1
 

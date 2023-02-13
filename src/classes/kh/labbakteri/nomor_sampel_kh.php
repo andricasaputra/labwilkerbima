@@ -10,7 +10,7 @@ if (!$kosong == 0) {
 
     $jumlah_sampel = 2;
 
-    $no_sampel = $result->no_sampel;
+    $no_sampel = $result->no_sampel ?? 0;
 
     //  Jika Jumlah Sampel Sama Dengan 1
 
@@ -66,9 +66,9 @@ if (!$kosong == 0) {
 
             } else {
 
-                $jml2 = $k + 1;
+                $jml2 = (int) $k + 1;
 
-                $jml = $k + $jumlah_sampel;
+                $jml = (int) $k + $jumlah_sampel;
 
                 $nomor_smpl = $jml2 . "-" . $jml;
 

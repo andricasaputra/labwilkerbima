@@ -679,7 +679,7 @@ $content .= '
 
 
 
-            Sumbawa Besar, '.$data->tanggal_penyerahan.' / '.$data->jam_diterima_pengelola_sampel.'
+            Bima, '.$data->tanggal_penyerahan.' / '.$data->jam_diterima_pengelola_sampel.'
 
    
 

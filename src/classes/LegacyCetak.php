@@ -9,7 +9,7 @@ use Lab\interfaces\SuperCetak;
 $basepath = Init::basePath();
 $imagesPath = Init::imagesPath();
 
-define("LOGO", $imagesPath . "/logolab.png");
+define("LOGO", $imagesPath . "/logolabbima.png");
 define("LOGOSKP", $imagesPath . "/logoskp.png" );
 define("LOGOSKPBIASA", $imagesPath . "/logoskpfix.png");
 define("LOGOKAN", $imagesPath . "/logolabkan.png");

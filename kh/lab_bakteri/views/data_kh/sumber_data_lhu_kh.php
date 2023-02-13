@@ -139,6 +139,8 @@ while($data2 = $query->fetch_object()){
 
         }elseif ($banyak_sampel > $num) {
 
+            var_dump($num); die;
+
             $subdata[] = "<span class='nonuji'>".$dat['no']."</span>"; 
 
             $subdata[] = "<span class='nonuji'>".$data2->tanggal_lhu."</span>";

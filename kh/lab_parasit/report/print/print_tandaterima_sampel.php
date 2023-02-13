@@ -566,7 +566,7 @@ $content .= '
 
 
 
-			Sumbawa Besar, '.$data->tanggal_diterima.'
+			Bima, '.$data->tanggal_diterima.'
 
 
 

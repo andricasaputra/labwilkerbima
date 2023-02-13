@@ -804,7 +804,7 @@ $content .= '
 
     <p></p>
 
-    Sumbawa Besar, '.$data->tanggal_diterima.'
+    Bima, '.$data->tanggal_diterima.'
 
     <br />
 

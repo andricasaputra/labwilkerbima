@@ -310,9 +310,9 @@ $content .= '
 
             <br>
 
-            <b>Pj. Wilker Pelabuhan Laut Badas</b>
+            <b>Pj. Wilker Pelabuhan Laut Bima</b>
 
-            <br>di Sumbawa Besar
+            <br>di Bima
 
         </div>
 

@@ -95,7 +95,7 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
 
             if ($data->jumlah_sampel >= 15) { ?>
               
-              <form action="" method="post" id="kurangi">
+             <!--  <form action="" method="post" id="kurangi">
                 <div class="row">
                   <div class="col-md-2"><b>Cicil hasil pengujian</b></div>
                   <div class="col-md-4" style="margin-left: -50px">
@@ -106,7 +106,7 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                   </div> 
                   <div class="col-md-4"></div> 
                 </div>
-              </form>
+              </form> -->
 
           <?php } ?>
 
@@ -151,6 +151,8 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                           $kurangi = $jum - $masukkan;
                          
                           $n = array();
+
+
 
                           if($jum != 1){
 
@@ -237,6 +239,8 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                               $akhir = end($x);
 
                               if (strpos($_GET['nama_sampel'], "Bibit") !== false) {
+
+
                                     
                                     $awal = ltrim($awal, "0"); 
 
@@ -246,7 +250,7 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                                       $n[] = "0".$value;
                                     }
 
-                                    $r = $n;
+                                    $r = range($awal, $akhir);
 
                               }else{
 
@@ -377,7 +381,9 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
                     window.location.href = redirect
 
                 });
-                console.log(data);  
+           },
+           error: function(err){
+            console.log(err)
            }  
          });
       }));

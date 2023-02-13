@@ -334,7 +334,7 @@ $content .= '
         <div id="lower">
 
             <br>
-            Sumbawa Besar, '.$data->tanggal_penunjukan.' 
+            Bima, '.$data->tanggal_penunjukan.' 
 
             <br/>
 
