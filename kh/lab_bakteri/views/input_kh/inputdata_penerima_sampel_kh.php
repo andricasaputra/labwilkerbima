@@ -201,14 +201,14 @@ endwhile;
                                   <label class="control-label" for="penerima_sampel">Penerima Sampel</label>
 
                                   <select class="form-control" name="penerima_sampel" id="penerima_sampel_input" required>
-                                        <option>Wulida Fakhrina, SP</option>
+                                        <option value="34">Fikar Darmawan</option>
                                         <?php 
 
                                           $i = $objectData->tampil_jabfung();
 
                                           while ($t=$i->fetch_object()) : ?>
 
-                                          <option><?=$t->nama_pejabat ;?></option>
+                                          <option value="<?=$t->id_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
 
                                         <?php endwhile;?>
 
