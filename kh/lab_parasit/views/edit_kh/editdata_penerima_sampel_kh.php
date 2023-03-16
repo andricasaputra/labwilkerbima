@@ -228,7 +228,7 @@ endwhile;
 
                                   <select class="form-control" name="penerima_sampel" id="penerima_sampel_edit" required>
 
-                                      <option><?php echo $penerima_sampel; ?></option>
+                                       <option><?php echo $penerima_sampel; ?></option>
 
                                         <?php 
 
@@ -236,7 +236,7 @@ endwhile;
 
                                           while ($t=$i->fetch_object()) : ?>
 
-                                          <option><?=$t->nama_pejabat ;?></option>
+                                          <option value="<?=$t->id_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
 
                                         <?php endwhile;?>
 
