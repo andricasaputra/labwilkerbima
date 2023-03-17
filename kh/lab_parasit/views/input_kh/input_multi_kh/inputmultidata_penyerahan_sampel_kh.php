@@ -194,7 +194,7 @@ foreach ($arrnamaSampel as $key => $value){
                                         
                                     <?php else: ?> 
 
-                                      <option><?=$t->nama_pejabat ;?></option>
+                                      <option value="<?=$t->nama_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
 
                                     <?php  endif; endwhile;?>
 
@@ -217,7 +217,7 @@ foreach ($arrnamaSampel as $key => $value){
 
                                     while ($t=$i->fetch_object()) : ?>
 
-                                      <option><?=$t->nama_pejabat ;?></option>
+                                      <option value="<?=$t->nama_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
 
                                     <?php  endwhile;?>
 
