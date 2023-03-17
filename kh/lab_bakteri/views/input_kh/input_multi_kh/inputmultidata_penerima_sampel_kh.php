@@ -154,7 +154,7 @@ endif;
 
                                           while ($t=$i->fetch_object()) : ?>
 
-                                          <option value="<?=$t->id_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
+                                          <option value="<?=$t->nama_pejabat ;?>"><?=$t->nama_pejabat ;?></option>
 
                                         <?php endwhile;?>
 
@@ -168,7 +168,7 @@ endif;
                                   <label class="control-label" for="nip_penerima_sampel">NIP</label>
 
                                   <select class="form-control" name="nip_penerima_sampel" id="nip_penerima_sampel_input">
-                                    <option>19781124 200501 2 001</option>
+                                    <option>-</option>
 
                                   </select>
 
