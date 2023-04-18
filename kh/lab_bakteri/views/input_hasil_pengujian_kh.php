@@ -281,6 +281,8 @@ require_once(dirname(dirname(dirname(__DIR__)))."/kh/templates/header_hasil.php"
 
                               <input type="hidden"  name="hasil_pengujian" id="hasil_pengujian" value="terinput"> 
 
+                              <input type="hidden"  name="nama_sampel" id="nama_sampel" value="<?php echo $_GET['nama_sampel'] ?>"> 
+
 
                               <label class="control-label" for="no_sampel"></label>
 
