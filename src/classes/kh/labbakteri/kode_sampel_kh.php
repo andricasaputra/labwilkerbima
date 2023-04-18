@@ -37,6 +37,10 @@ while ($ini = $nama->fetch_object()):
 
     $cari4 = 'Kuda';
 
+    $cari5 = 'Kambing';
+
+    $cari6 = 'Kambing Bibit';
+
     if ($jenis_permohonan == 'Domestik Keluar') {
 
         $kodeJenis = 'DK/';
@@ -84,6 +88,14 @@ if (strpos($nama_sampel, $cari2) != false) {
 } elseif (strpos($nama_sampel, $cari4) != false) {
 
     $format2 = $tambah . "H" . "/kd/" . $kodeJenis . $bln . "/" . $thn;
+
+} elseif (strpos($nama_sampel, $cari5) != false) {
+
+    $format2 = $tambah . "H" . "/kmb/" . $kodeJenis . $bln . "/" . $thn;
+
+} elseif (strpos($nama_sampel, $cari6) != false) {
+
+    $format2 = $tambah . "H" . "/kmbbbt/" . $kodeJenis . $bln . "/" . $thn;
 
 }
 
