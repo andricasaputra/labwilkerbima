@@ -37,9 +37,9 @@ while ($ini = $nama->fetch_object()):
 
     $cari4 = 'Kuda';
 
-    $cari5 = 'Kambing';
+    $cari5 = 'Kambing Bibit';
 
-    $cari6 = 'Kambing Bibit';
+    $cari6 = 'Kambing';
 
     if ($jenis_permohonan == 'Domestik Keluar') {
 
