@@ -14,19 +14,33 @@ require_once('header_proses.php');
 
     $hasil_pengujian    = htmlspecialchars($conn->real_escape_string($_POST['hasil_pengujian']));
 
+     $nama_sampel     = htmlspecialchars($conn->real_escape_string($_POST['nama_sampel']));
+
 
 
   if($no_sampel !==""){
 
     $cek = substr($no_sampel, 0, 1);
 
+
     if ($cek !== "0") {
 
-      $insertDb = $objectHasil->input($id, $tanggal_acu_hasil, $no_sampel, $positif_negatif);
+
+      if(strpos($nama_sampel, "Bibit") !== false):
+
+        $insertDb = $objectHasil->input2($id, $tanggal_acu_hasil, $no_sampel, $positif_negatif);
+
+      else:
+
+        $insertDb = $objectHasil->input($id, $tanggal_acu_hasil, $no_sampel, $positif_negatif);
+
+      endif;
+
+  
 
     }else{
 
-      $insertDb = $objectHasil->input2($id, $tanggal_acu_hasil, $no_sampel, $positif_negatif);
+      
 
     }
 
