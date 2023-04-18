@@ -91,11 +91,11 @@ if (strpos($nama_sampel, $cari2) != false) {
 
 } elseif (strpos($nama_sampel, $cari5) != false) {
 
-    $format2 = $tambah . "H" . "/kmb/" . $kodeJenis . $bln . "/" . $thn;
+    $format2 = $tambah . "H" . "/kbgbbt/" . $kodeJenis . $bln . "/" . $thn;
 
 } elseif (strpos($nama_sampel, $cari6) != false) {
 
-    $format2 = $tambah . "H" . "/kmbbbt/" . $kodeJenis . $bln . "/" . $thn;
+    $format2 = $tambah . "H" . "/kbg/" . $kodeJenis . $bln . "/" . $thn;
 
 }
 
